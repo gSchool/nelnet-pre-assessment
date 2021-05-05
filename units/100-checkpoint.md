@@ -491,7 +491,7 @@ True
 
 * type: multiple-choice
 * id: 77f49187-b931-407b-9612-1460c609f5cd
-* title: <!--A short title-->
+* title: Switch expressions
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -501,14 +501,11 @@ If a switch expression does not include a default expression then the following 
 ##### !end-question
 
 ##### !options
-
 * A compiler error
 * A compiler warning
 * The last expression will be the returned
 * Nothing
-
 ##### !end-options
-
 ##### !answer
 A compiler warning
 ##### !end-answer
