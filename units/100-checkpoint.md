@@ -134,7 +134,7 @@ Which of the following is **not** a valid type definition?
 
 
 
-## SECTION 2: C#
+## SECTION 2: C#  8.0
 
 <!--BEGIN CHALLENGE-->
 
@@ -158,7 +158,7 @@ Nullable reference types are backward compatible with previous versions of C#.
 ##### !end-options
 ##### !answer
 
-<!--TBD-->
+False
 
 ##### !end-answer
 ### !end-challenge
@@ -216,7 +216,7 @@ Which of these is *not* a property of a method that returns an asynchronous stre
 ##### !end-options
 ##### !answer
 
-<!--The _text_ of the answer-->
+It adds await before the foreach keyword
 
 ##### !end-answer
 ### !end-challenge
@@ -229,7 +229,7 @@ Which of these is *not* a property of a method that returns an asynchronous stre
 
 * type: multiple-choice
 * id: 1cfc6159-8c88-4ac9-a66a-c316e48c5691
-* title: <!--A short title-->
+* title: Nullable and non-nullable reference types
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -237,18 +237,12 @@ Which of these is *not* a property of a method that returns an asynchronous stre
 ##### !question
 Enabling nullable and non-nullable reference types will cause compiler errors when a variable may potentially have null assigned to it.
 ##### !end-question
-
 ##### !options
-
 * True
 * False
-
 ##### !end-options
-
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+False
 ##### !end-answer
 ### !end-challenge
 
@@ -260,7 +254,7 @@ Enabling nullable and non-nullable reference types will cause compiler errors wh
 
 * type: multiple-choice
 * id: b9295284-3179-405a-a1bd-ebbe77636287
-* title: <!--A short title-->
+* title: Variable declarations
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -275,7 +269,7 @@ What is the correct way to declare a variable named FirstName as a nullable refe
 * `string FirstName?;`
 ##### !end-options
 ##### !answer
-<!--The _text_ of the answer-->
+`string? FirstName;`
 ##### !end-answer
 ### !end-challenge
 
@@ -287,7 +281,7 @@ What is the correct way to declare a variable named FirstName as a nullable refe
 
 * type: multiple-choice
 * id: 3e4ac8b7-60cf-4fbb-b15d-a7051f6095e3
-* title: <!--A short title-->
+* title: Null-forgiving operator
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -303,9 +297,7 @@ You can explicitly override the compiler warning for non-nullable types by using
 * &
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+?
 ##### !end-answer
 ### !end-challenge
 
@@ -334,9 +326,7 @@ Which property must be set to "enable" in the csproj file to enable nullable ref
 ##### !end-options
 
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+Nullable
 ##### !end-answer
 ### !end-challenge
 
@@ -348,7 +338,7 @@ Which property must be set to "enable" in the csproj file to enable nullable ref
 
 * type: multiple-choice
 * id: 85d03d97-053f-4241-8cd4-a8edeb6fb47c
-* title: <!--A short title-->
+* title: Code comprehension
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -386,9 +376,7 @@ public namespace PropertyPatterns
 * PropertyPatterns.Address is written to the console
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+"True" is written to the console
 ##### !end-answer
 ### !end-challenge
 
@@ -415,9 +403,7 @@ In order to consume an asynchronous stream you must use:
 * .awaitForEach() on the method
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+await foreach
 ##### !end-answer
 ### !end-challenge
 
@@ -445,9 +431,7 @@ Which is NOT a difference between a switch expression compared to a switch state
 * Instead of statements, the bodies are expressions
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+The `default` case is replaced with a more concise `:` discard.
 ##### !end-answer
 ### !end-challenge
 
@@ -459,7 +443,7 @@ Which is NOT a difference between a switch expression compared to a switch state
 
 * type: multiple-choice
 * id: 5c374ab7-0757-4102-a1bd-3a4a12bf588f
-* title: <!--A short title-->
+* title: Code comprehension
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -491,15 +475,11 @@ class Program
 ```
 ##### !end-question
 ##### !options
-
 * True
 * False
-
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+True
 ##### !end-answer
 ### !end-challenge
 
@@ -530,9 +510,7 @@ If a switch expression does not include a default expression then the following 
 ##### !end-options
 
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+A compiler warning
 ##### !end-answer
 ### !end-challenge
 
@@ -544,7 +522,7 @@ If a switch expression does not include a default expression then the following 
 
 * type: multiple-choice
 * id: e0f37a23-2bc9-4bef-bcf9-15a0b7f7e11d
-* title: <!--A short title-->
+* title: Operators
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -559,9 +537,7 @@ The ^ operator is also known as:
 * The hat operator
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+The hat operator
 ##### !end-answer
 ### !end-challenge
 
@@ -573,7 +549,7 @@ The ^ operator is also known as:
 
 * type: multiple-choice
 * id: b90f883d-642c-4a09-b4a5-0d9171c683e0
-* title: <!--A short title-->
+* title: Switch expressions
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -589,9 +565,7 @@ Which of these signify the start of a default expression in a switch expression
 ##### !end-options
 
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+_ =>
 ##### !end-answer
 ### !end-challenge
 
@@ -603,7 +577,7 @@ Which of these signify the start of a default expression in a switch expression
 
 * type: multiple-choice
 * id: 5c674869-75c7-40f0-9f61-e06260530472
-* title: <!--A short title-->
+* title: Array access
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -618,9 +592,7 @@ Given an array with 9 elements, which range below will access the 1st through 4t
 * 1..5
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+0..5
 ##### !end-answer
 ### !end-challenge
 
@@ -632,7 +604,7 @@ Given an array with 9 elements, which range below will access the 1st through 4t
 
 * type: multiple-choice
 * id: 42024879-3980-4817-9c01-254f03f6b97c
-* title: <!--A short title-->
+* title: Async methods
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -645,9 +617,7 @@ Async methods that return type IAsyncEnumerable<T> must have an await call withi
 * False
 ##### !end-options
 ##### !answer
-
-<!--The _text_ of the answer-->
-
+False
 ##### !end-answer
 ### !end-challenge
 
