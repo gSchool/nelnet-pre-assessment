@@ -35,9 +35,5 @@ Standards:
         Path: /units/000-standard.md
       - Type: Checkpoint
         UID: 57e97641-58d2-443e-8330-e4e7f53cd766
-        Path: /units/100-typescript-checkpoint.md
-        MaxCheckPointSubmissions: 1
-      - Type: Checkpoint
-        UID: 4ef9f0f5-5dee-4f7f-9108-1f8e93a70e2e
-        Path: /units/200-csharp-checkpoint.md
+        Path: /units/100-checkpoint.md
         MaxCheckPointSubmissions: 1
