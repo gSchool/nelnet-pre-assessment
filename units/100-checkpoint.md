@@ -11,7 +11,7 @@ Thank you for taking the time to complete this assessment.  We look forward to w
 
 ## TypeScript
 
-!<!--BEGIN CHALLENGE-->
+<!--BEGIN CHALLENGE-->
 
 ### !challenge
 
@@ -43,7 +43,7 @@ Which of the following is NOT a primitive data-type in JavaScript / TypeScript?
 
 <!--END CHALLENGE-->
 
-!<!--BEGIN CHALLENGE-->
+<!--BEGIN CHALLENGE-->
 
 ### !challenge
 
@@ -70,7 +70,7 @@ Which of the following is a valid TypeScript identifier?
 
 <!--END CHALLENGE-->
 
-!<!--BEGIN CHALLENGE-->
+<!--BEGIN CHALLENGE-->
 
 ### !challenge
 
@@ -105,7 +105,7 @@ console.log(secondVar);
 
 <!--END CHALLENGE-->
 
-!<!--BEGIN CHALLENGE-->
+<!--BEGIN CHALLENGE-->
 
 ### !challenge
 
@@ -131,3 +131,5 @@ Which of the following is **not** a valid type definition?
 ### !end-challenge
 
 <!--END CHALLENGE-->
+
+
