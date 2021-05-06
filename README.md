@@ -1,3 +1,6 @@
-
-
-4 q's on literals, variables, constants, datatypes
+| Question Count | Topic      |
+|----------------|------------|
+| 14             | TypeScript |
+| 10             | Angular    |
+| 16             | C#         | 
+| 15             | .NET       |

@@ -132,9 +132,643 @@ Which of the following is **not** a valid type definition?
 
 <!--END CHALLENGE-->
 
+<!--BEGIN CHALLENGE-->
 
+### !challenge
 
-## SECTION 2: C#  8.0
+* type: multiple-choice
+* id: e3cdcfeb-e126-46e0-95ee-5e405f103379
+* title: If statements
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What will the following code write to the console?
+
+```typescript
+let firstVar: number = 15;
+let secondVar: string = “hello”;
+if(secondVar === “hello world”) {
+  console.log(secondVar);
+} else if (firstVar > 10) {
+  console.log(firstVar);
+} else {
+  console.log(”goodbye”);
+}
+```
+##### !end-question
+##### !options
+* undefined
+* 15
+* Error: Operator '>' cannot be applied to types 'string' and 'number'.
+* “hello world”
+* “goodbye”
+##### !end-options
+##### !answer
+15
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 1cfc5464-fbc7-4613-aa5c-ba88b1fbac72
+* title: For loops
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What will the following code write to the console? 
+
+```typescript
+let myNum: number = 0;
+
+for(let i:number = 36; i > 0; i = i - 3) {
+  myNum = myNum + 1;
+}
+
+console.log("i is " + myNum);
+```
+##### !end-question
+##### !options
+* "i is 36"
+* "i is 24" 
+* "i is 12"
+* "i is 6"
+* "i is 3"
+##### !end-options
+##### !answer
+"i is 12"
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 5b00718c-28a4-4cb8-8939-e3e26ea561f1
+* title: For...in loops
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What will the following code write to the console? 
+```typescript
+const myObj: any = {
+  firstname: "Ian",
+  lastname: "Culleton",
+  github: "ian-culleton",
+  email: "ian.culleton@galvanize.com"
+}
+
+const myArray: string[] = [];
+for(let key in myObj) {
+  myArray.push(key);
+}
+
+console.log(myArray);
+```
+##### !end-question
+##### !options
+* [0, 1, 2, 3] 
+* ["firstname", "lastname", "github", "email"] 
+* ["Ian", "Culleton", "ian-culleton", "ian.culleton@galvanize.com"] 
+* []
+* Error: Assignment to constant variable. 
+##### !end-options
+##### !answer
+["firstname", "lastname", "github", "email"] 
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 403343b0-5f05-4978-a60c-f6b56d77eceb
+* title: Arithmetic operators
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following are _arithmetic_ operators in TypeScript? (Select all that apply)
+##### !end-question
+##### !options
+* +
+* =
+* *
+* ===
+* /
+* //
+* &&
+* %
+* !
+##### !end-options
+##### !answer
+* +
+* *
+* /
+* %
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 6e9b4aa3-f3db-4e64-a686-3edc54a206ab
+* title: Logical operators
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following are _logical_ operators in TypeScript? (Select all that apply)
+##### !end-question
+
+##### !options
+* +
+* =
+* *
+* ===
+* /
+* //
+* &&
+* %
+* !
+##### !end-options
+##### !answer
+* &&
+* !
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: fa62f16f-969b-4be5-8cef-e855ecdb175c
+* title: Comparison operators
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following are _comparison_ operators in TypeScript? (Select all that apply) 
+##### !end-question
+##### !options
+* +
+* =
+* *
+* ===
+* /
+* //
+* &&
+* %
+* !
+##### !end-options
+##### !answer
+ ===
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+* type: multiple-choice
+* id: 5e918c07-91e2-4187-b5d7-e2bbd9da4115
+* title: Math
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+##### !question
+What will the following code write to the console?
+```typescript
+const foo = (22 + 4 * 2 - 2) / 4;
+console.log(foo)
+```
+##### !end-question
+##### !options
+* 0
+* 12.5
+* 7 
+* 11
+* 13
+##### !end-options
+##### !answer
+7
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 0a6bb3fd-d219-4cf8-b2cc-228ee497f17f
+* title: Logical operators
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following expressions evaluates to true?
+##### !end-question
+##### !options
+*  true && false === false || true
+* 13 > 16 || 18 <= 13
+* “foo” !== “bar” && “baz” === “bam”
+* 3 + 4 + 2 * 5 >= 16 / 2 + 27 / 3 * (3 + 8 - 10)
+##### !end-options
+##### !answer
+3 + 4 + 2 * 5 >= 16 / 2 + 27 / 3 * (3 + 8 - 10)
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: aa6a7612-1f40-46e6-8274-fcf09e98241e
+* title: Logical operators
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following expressions evaluates to false? 
+##### !end-question
+##### !options
+* "typescript".charAt(4) === "strings".charAt(6)
+* "typescript".includes("JavaScript".substr(4, 9).toLowerCase())
+* typeof “typescript”.charCodeAt(3) === “string”
+* "type".concat('script').length === 10
+##### !end-options
+##### !answer
+typeof “typescript”.charCodeAt(3) === “string”
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: e77ebe7f-bc47-4080-82b1-90da7fda848c
+* title: Destructuring
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What will the following code write to the console? 
+```typescript
+const myObj: any = {
+  myKey: 42,
+  mySecondKey: 'forty-two'
+}
+const { mySecondKey } = myObj;
+console.log(mySecondKey);
+```
+##### !end-question
+##### !options
+* {myKey: 42, mySecondKey: 'forty-two'}
+* ‘forty-two’
+* 42
+* undefined
+##### !end-options
+##### !answer
+‘forty-two’
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+## SECTION 2: Angular
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: cc553cdf-3eb8-469d-b7d0-6c813c3d146c
+* title: Modules
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following is used to declare components that belong to a module within `@NgModule`?
+##### !end-question
+##### !options
+* `declarations`
+* `imports`
+* `bootstrap`
+##### !end-options
+##### !answer
+`declarations`
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 17d8a869-69e4-49cd-9804-3d9f57d3322b
+* title: Data Binding
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Below are some statements about data binding. Check all that are **true**
+##### !end-question
+
+##### !options
+* Event binding allows components to respond to user actions.
+* Property binding allows components to respond to user actions.
+* Event binding is achieved using `[ ]` syntax in a template.
+* Event binding is achieved using the `@Output` decorator in component class definitions.
+* property binding is achieved using `[ ]` syntax in a template.
+* Property binding is achieved using the `@Input` decorator in component class definitions.
+* All of the above.
+##### !end-options
+
+##### !answer
+* Event binding allows components to respond to user actions.
+* Event binding is achieved using the `@Output` decorator in component class definitions.
+* property binding is achieved using `[ ]` syntax in a template.
+* Property binding is achieved using the `@Input` decorator in component class definitions.
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 816fcca2-bed1-4156-b5d7-75333bec8726
+* title: Data binding
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Consider the template code below: 
+```
+<app-profile
+  [name]="'Alton Brown'"
+  [email]="alton@foodnetwork.com"
+  (profileSelected)="handleProfileClick($event)"
+></app-profile>
+```
+
+which line above contains event binding?
+##### !end-question
+
+##### !options
+* `<app-profile`
+* ` [name]="'Alton Brown'"`
+* ` [email]="'alton@foodnetwork.com'"`
+* ` (profileSelected)="handleProfileClick($event)"`
+##### !end-options
+
+##### !answer
+` (profileSelected)="handleProfileClick($event)"`
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: c0fd35ff-bcce-4be4-b709-79cd5d89e1c4
+* title: Types of directives
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What are the three types of Angular directive? (Select all that apply)
+##### !end-question
+
+##### !options
+* circular
+* structural
+* attribute
+* prime
+* component
+* display
+* implicit
+##### !end-options
+
+##### !answer
+* structural
+* attribute
+* component
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: c7cef33a-b38e-46f6-a3b3-1cd9b4c3e284
+* title: Structural directives
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What are structural directives used for?
+##### !end-question
+##### !options
+* They control the appearance and behavior of a region of the screen.
+* They are used to create, arrange, or remove DOM elements.
+* They change the appearance or behavior of DOM elements
+##### !end-options
+##### !answer
+They are used to create, arrange, or remove DOM elements.
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: f6c2ff8b-dcb4-4c15-a44f-488ff43b6c9d
+* title: Attribute directives
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What are attribute directives used for?
+##### !end-question
+##### !options
+* They control the appearance and behavior of a region of the screen.
+* They are used to create, arrange, or remove DOM elements.
+* They change the appearance or behavior of DOM elements
+##### !end-options
+##### !answer
+They change the appearance or behavior of DOM elements
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 826d543f-d5a1-4da8-b348-e6e4dfc75348
+* title: Dependency Injection
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following is **NOT** true of Angular's dependency injection system?
+##### !end-question
+##### !options
+* Dependencies are registered with Angular using the `Injectable` decorator.
+* Each component instantiates a new instance of the injected service.
+* Dependencies are injected into components using a parameter in the component constructor.
+##### !end-options
+##### !answer
+Each component instantiates a new instance of the injected service.
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 8afe2819-55d4-40e5-a398-d1b1e9f1817f
+* title: Forms
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following best describes the relationship between a `FormControl` and a `FormGroup`?
+##### !end-question
+##### !options
+* A `FormControl` controls the validation of a `FormGroup`.
+* A `FormControl` contains all of the `FormGroup` instances for a single form.
+* A `FormGroup` contains all of the `FormControl` instances for a single form.
+* A `FormGroup` returns a new `FormControl` every time the value of an input changes.
+##### !end-options
+##### !answer
+A `FormGroup` contains all of the `FormControl` instances for a single form.
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 513312c6-73ab-4f7c-bfac-3e555a2a123f
+* title: FormGroup
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which of the following directives is used to bind an input in the template to a specific field in a `FormGroup`?
+##### !end-question
+##### !options
+* `formGroup`
+* `formControl`
+* `formControlName`
+* `ngFormField`
+##### !end-options
+##### !answer
+`formControlName`
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: fb953206-0e5a-41f5-aba0-3f7a4885d30d
+* title: <!--A short title-->
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which built-in directive is used to specify the location in a template the router should render its content?
+##### !end-question
+##### !options
+* `NgModule`
+* `routerLink`
+* `router-outlet`
+* `NgRouter`
+* `AppRoutingComponent`
+##### !end-options
+##### !answer
+`router-outlet`
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+## SECTION 3: C#  8.0
 
 <!--BEGIN CHALLENGE-->
 
@@ -151,15 +785,11 @@ Which of the following is **not** a valid type definition?
 Nullable reference types are backward compatible with previous versions of C#.
 ##### !end-question
 ##### !options
-
 * True
 * False
-
 ##### !end-options
 ##### !answer
-
 False
-
 ##### !end-answer
 ### !end-challenge
 
@@ -621,5 +1251,415 @@ False
 <!--END CHALLENGE-->
 
 
-
+## SECTION 4: .NET
 <!-- HERE FOLLOWS THE .NET PORTION OF THE ASSESSMENT -->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 981d5c0c-3552-4467-b754-0e8ce15a3aa9
+* title: Operating Systems
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+.NET Core 3.0 can only run from a Windows operating system.
+##### !end-question
+
+##### !options
+* True
+* False
+##### !end-options
+
+##### !answer
+False
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: fe462366-5720-4db8-b938-bbf20c0de059
+* title: Garbage Collection
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Is the default garbage collection heap size larger or smaller in .NET Core 3.0?
+##### !end-question
+##### !options
+* larger
+* smaller
+##### !end-options
+##### !answer
+smaller
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 26ecd1da-602c-4b1a-a867-bf9a8de615d4
+* title: Operating Systems
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+WPF and WinForms can now run on Linux and MacOS operating systems with .NET Core 3.0.
+##### !end-question
+##### !options
+* True
+* False
+##### !end-options
+##### !answer
+* False
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 06cbd5ed-9303-4b94-9b1f-d1be9aa646e1
+* title: licensing
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+.NET Core and it's libraries are provided under which license(s)? (Select all that apply)
+##### !end-question
+
+##### !options
+* Ms-RSL (Microsoft Reference Source License)
+* MIT License
+* Apache 2 License
+* GPL 3.0 (General Public License)
+* BSD License 2.0 (Berkeley Software Distribution)
+##### !end-options
+##### !answer
+* MIT License
+* Apache 2 License
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 46ef5184-e9dc-4bab-b2d7-1240fc33aebd
+* title: .NET Framework vs. .NET Core
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Select the reasons you should use .NET Framework instead of .NET Core: (select all that apply)
+##### !end-question
+##### !options
+* Your app uses third-party .NET libraries not available for .NET Core
+* You need side-by-side .NET versions per application
+* You need high-performance and scalable systems
+* You are targeting microservices.
+* Your app uses a platform that doesn’t support .NET Core
+##### !end-options
+##### !answer
+* Your app uses third-party .NET libraries not available for .NET Core
+* Your app uses a platform that doesn’t support .NET Core
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 40ced5f8-e3a6-4a1e-b242-ef11abd32363
+* title: Application types
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which application types are NOT found in .NET Core 3.0? (Select all that apply)
+##### !end-question
+##### !options
+* UWP
+* WebForms
+* WinForms
+* WebHooks
+* ASP.NET
+* Console
+* WCF
+* Windows Services
+* SignalR
+##### !end-options
+##### !answer
+* WebForms
+* WebHooks
+* WCF
+* Windows Services
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: short-answer
+* id: 7bca2299-4bb2-47ad-8661-7f09233ce7b8
+* title: .NET versions
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+The next version of .NET Core after 3.1 will be:
+##### !end-question
+##### !answer
+5
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 5deacf21-bd6f-4065-9e40-d5fe99b78ed2
+* title: COM callable components
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+.NET Core 3.0 does not support COM callable components.
+##### !end-question
+##### !options
+* True
+* False
+##### !end-options
+##### !answer
+False
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 70d180d2-3572-4543-9006-8fafe5e99890
+* title: WPF Applications
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+What language is used when defining the user interface of a WPF application?
+##### !end-question
+##### !options
+* HTML
+* CSS
+* XAML
+* Javascript
+##### !end-options
+##### !answer
+* XAML
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: checkbox
+* id: 98847ac4-4a56-438e-b3aa-3700642a5d40
+* title: .NET Core feature support
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+The following are C# 8 features supported by .NET Core 3.0 (select all that apply)
+##### !end-question
+##### !options
+* Spread Operator
+* Nullable Reference Types
+* YAML file format
+* Ranges
+* Switch Expressions
+* Fat Arrow Syntax
+##### !end-options
+##### !answer
+* Nullable Reference Types
+* Ranges
+* Switch Expressions
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: fa8b353c-21d4-42aa-aac8-9d273c17e057
+* title: <!--A short title-->
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+.NET Core 3.0 implements which .NET Standard?
+##### !end-question
+##### !options
+* 5.0
+* 4.8
+* 3.5
+* 2.1
+* 2.0
+##### !end-options
+##### !answer
+2.1
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 70977b44-bcd1-4729-9278-46d1fe385790
+* title: Deployment types
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Which deployment type is the default in .NET Core 3.0?
+##### !end-question
+##### !options
+* FDD
+* FDE 
+* SCD
+* EXE
+##### !end-options
+##### !answer
+FDE
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 036c5191-0268-4893-b4f9-2a97991976c7
+* title: JSON and POCOs
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Use which method to create a JSON string from a POCO:
+##### !end-question
+
+##### !options
+* JsonSerializer.ConvertToString()
+* JsonSerializer.SerializeToString()
+* JsonSerializer.Serialize()
+* JsonSerializer.ToSring()
+##### !end-options
+##### !answer
+JsonSerializer.Serialize()
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: c7418b56-c141-40a7-b01c-9a5e8937471a
+* title: JSON and POCOs
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+Use which method to create a POCO from a JSON string?
+##### !end-question
+##### !options
+* JsonSerializer.ConvertToObject()
+* JsonSerializer.DeserializeToObject()
+* JsonSerializer.Deserialize()
+* JsonSerializer.ToObject()
+##### !end-options
+##### !answer
+JsonSerializer.Deserialize()
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
+
+<!--BEGIN CHALLENGE-->
+
+### !challenge
+
+* type: multiple-choice
+* id: 5c951543-c9f6-4271-8903-22537d7b3d04
+* title: JSON
+<!--Other optional fields (checkpoints only) -->
+<!--`points: 1`: the number of points for scoring as a checkpoint-->
+<!--`topics: python, pandas`: the topics for analyzing points-->
+
+##### !question
+The JsonSerializer class must be imported from the Newtonsoft JSON package library.
+##### !end-question
+##### !options
+* True
+* False
+##### !end-options
+##### !answer
+False
+##### !end-answer
+### !end-challenge
+
+<!--END CHALLENGE-->
