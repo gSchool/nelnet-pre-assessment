@@ -3,6 +3,8 @@
 Welcome to the nelnet pre-assessment.  This assessment is designed to gauge how much of the material in this class you are *already familiar with.*  It comprises a number of questions about TypeScript, Angular, C#, .NET, and Object-oriented design principles.  Here are a few things you should know before you get started:
 
   - You should plan on spending no more than 1 hour on this assessment.  If you have worked on it for an hour, you should stop working on it.
+    - This means you should spend ~1 minute per question.
+    - You *do not* have to complete this assessment in a single, 1-hour sitting.  You may complete each section, take a break, and come back to the next section fresh.  Your break time doesn't count towards the 1-hour timeframe.
   - You are *not* expected to answer most of these questions correctly.  You are not even expected to answer *any* of these questions correctly.  
   - This pre-assessment will not contribute to any official assessment in this class-- the only purpose of this pre-assessment is to give your instructors greater insight into your existing skillset, which will help us tailor the course to your needs and, hopefully, produce a more engaging and relevant course for you.
   - Please *do not* look up answers or use external resources.  If you do, instructors may skip over information that we think you already know.
