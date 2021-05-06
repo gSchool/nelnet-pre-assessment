@@ -746,7 +746,7 @@ Which of the following directives is used to bind an input in the template to a 
 
 * type: multiple-choice
 * id: fb953206-0e5a-41f5-aba0-3f7a4885d30d
-* title: <!--A short title-->
+* title: Routing
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
@@ -1535,7 +1535,7 @@ The following are C# 8 features supported by .NET Core 3.0 (select all that appl
 
 * type: multiple-choice
 * id: fa8b353c-21d4-42aa-aac8-9d273c17e057
-* title: <!--A short title-->
+* title: .NET standards
 <!--Other optional fields (checkpoints only) -->
 <!--`points: 1`: the number of points for scoring as a checkpoint-->
 <!--`topics: python, pandas`: the topics for analyzing points-->
