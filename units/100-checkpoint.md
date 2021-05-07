@@ -270,21 +270,21 @@ console.log(myArray);
 Which of the following are _arithmetic_ operators in TypeScript? (Select all that apply)
 ##### !end-question
 ##### !options
-* +
-* =
-* *
-* ===
-* /
-* //
-* &&
-* %
-* !
+* `+`
+* `=`
+* `*`
+* `===`
+* `/`
+* `//`
+* `&&`
+* `%`
+* `!`
 ##### !end-options
 ##### !answer
-* +
-* *
-* /
-* %
+* `+`
+* `*`
+* `/`
+* `%`
 ##### !end-answer
 ### !end-challenge
 
@@ -306,19 +306,19 @@ Which of the following are _logical_ operators in TypeScript? (Select all that a
 ##### !end-question
 
 ##### !options
-* +
-* =
-* *
-* ===
-* /
-* //
-* &&
-* %
-* !
+* `+`
+* `=`
+* `*`
+* `===`
+* `/`
+* `//`
+* `&&`
+* `%`
+* `!`
 ##### !end-options
 ##### !answer
-* &&
-* !
+* `&&`
+* `!`
 ##### !end-answer
 ### !end-challenge
 
@@ -339,18 +339,18 @@ Which of the following are _logical_ operators in TypeScript? (Select all that a
 Which of the following are _comparison_ operators in TypeScript? (Select all that apply) 
 ##### !end-question
 ##### !options
-* +
-* =
-* *
-* ===
-* /
-* //
-* &&
-* %
-* !
+* `+`
+* `=`
+* `*`
+* `===`
+* `/`
+* `//`
+* `&&`
+* `%`
+* `!`
 ##### !end-options
 ##### !answer
- ===
+ `===`
 ##### !end-answer
 ### !end-challenge
 
